@@ -52,3 +52,9 @@ let dummy_input = ["Hello", "World"]
 let solution = new Solution();
 console.log(solution.encode(dummy_input));
 console.log(solution.decode(solution.encode(dummy_input)));
+
+let dummy_input2 = [[3, 0, 1, 4, 2],
+[5, 6, 3, 2, 1],
+[1, 2, 0, 1, 5],
+[4, 1, 0, 1, 7],
+[1, 0, 3, 0, 5]]
